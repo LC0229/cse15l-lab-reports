@@ -21,7 +21,7 @@ The output is not an error.
 '[user@sahara ~/lecture1]$' pwd </br>
 `/home/lecture1`
 
-For this case, the result is that we are going to a new Working directory called lecture1.
+For this case, the result is that we are going to a new Working directory called lecture1, since after we put the path after cd, we swtich current working directory `/home` to given new directory `/home/lecture1`.
 The output is not an error.
 
 
