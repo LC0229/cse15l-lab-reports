@@ -1,7 +1,13 @@
-# cd
+# `cd`
 
-## cd with no arguments
-[user@sahara ~]$ `cd`
+## `cd` with no arguments
+`[user@sahara ~]$ cd`
 
-[user@sahara ~]$ 
+`[user@sahara ~]$`
+
+`[user@sahara ~]$ pwd`
+
+`/home`
+
+
 
