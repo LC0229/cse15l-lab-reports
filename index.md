@@ -8,6 +8,15 @@
 * CSE12
 * CSE15L
 * CSE30
-1. 2.
+1. 1.
 2. 2.
 3. 3.
+---
+
+`>> 0.o << ` with backticks
+
+```
+code block
+print '3 backticks or'
+print 'indent 4 spaces'
+```
