@@ -33,4 +33,4 @@ The output is not an error.
 '[user@sahara ~/lecture1]$ pwd` </br>
 `/home/lecture1`
 
-For this case, the result indicates an error for Not a directory, 
+For this case, the result indicates an error for Not a directory, since cd does not take file as an argument, it is designed to change the current working directory.
