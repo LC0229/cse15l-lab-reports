@@ -34,3 +34,19 @@ The output is not an error.
 `/home/lecture1`
 
 For this case, the result indicates an error for Not a directory, since cd does not take file as an argument, it is designed to change the current working directory.
+
+
+
+# `ls`
+
+## `ls` with no arguments
+`[user@sahara ~]$ ls`
+`lecture1`
+
+*working directory*
+`[user@sahara ~]$ pwd`</br>
+`/home`
+
+For this case, after we implements ls, it tells us the folder called lecture1 is in the home working directory. The current working directory is still `/home`.
+The output is not an error.
+
