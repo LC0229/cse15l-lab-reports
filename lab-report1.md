@@ -77,7 +77,16 @@ The output is not an error.
 
 # `cat`
 
-## `ls` with no arguments
+## `cat` with no arguments
+`[user@sahara ~]$ cat`
+`Hello World!`(input)
+`Hello World!`(output)
+
+*working directory*
+`[user@sahara ~]$ pwd`</br>
+`/home`
+
+For this case
 
 
 
