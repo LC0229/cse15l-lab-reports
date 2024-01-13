@@ -96,4 +96,12 @@ The output is not an error.
 `[user@sahara ~]$ cat lecture1`</br>
 `cat: lecture1: Is a directory`
 
+*working directory*</br>
+`[user@sahara ~]$ pwd`</br>
+`/home`
+
+For this case, te result displays an error, the directory i input is not valid as an argument of cat. Since cat is used to display the content of files.
+
+
+
 
