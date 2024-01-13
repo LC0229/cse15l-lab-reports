@@ -103,5 +103,16 @@ The output is not an error.
 For this case, te result displays an error, the directory i input is not valid as an argument of cat. Since cat is used to display the content of files.
 
 
+## `cat` with a path to a file as an argument.
+`[user@sahara ~/lecture1]$ cat messages/zh-cn.txt`</br>
+`你好世界`
+
+*working directory*</br>
+'[user@sahara ~/lecture1]$ pwd` </br>
+`/home/lecture1`
+
+For this case, the result displays the content of the file we put as arugment, the content of zh-cn.txt will be printed out. 
+The output is not an error.
+
 
 
