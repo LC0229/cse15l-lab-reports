@@ -6,8 +6,10 @@
 
 `[user@sahara ~]$`
 
-*working directory*</br>
-`[user@sahara ~]$ pwd`</br>
+*working directory*
+
+`[user@sahara ~]$ pwd`
+
 `/home`
 
 For this case, the result is that nothing happend in this case. Since if there is no argument for cd, the system have no change to working directory. The current working directory is still `/home`.
