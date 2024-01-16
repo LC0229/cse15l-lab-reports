@@ -1,7 +1,7 @@
 # `cd`
 
-## `cd` with no arguments
-`[user@sahara ~]$ cd` </br>
+## `cd` with no arguments</br>
+`[user@sahara ~]$ cd`
 `[user@sahara ~]$`
 
 *working directory*</br>
