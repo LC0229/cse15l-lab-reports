@@ -29,6 +29,7 @@ The output is not an error for these cases.
 ## `cd` with a path to a directory as an argument.
 
 current directory: /home
+
 `[user@sahara ~]$ cd lecture1/`
 
 `[user@sahara ~/lecture1]$ `
