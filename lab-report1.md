@@ -21,7 +21,7 @@ case3: current directory: /lecture1/messages
 `[user@sahara ~]$`
 
 
-For case1, the result is that nothing happend in case. For The current working directory is still `/home`. For case2, we can se the cd command lead us return to /home. For case3, if the current directory is /lecture1/messages, current directory returns to /home. 
+For the case1 of current working directory is still `/home` after cd . For case2, we can se the cd command lead us return to /home. For case3, if the current directory is /lecture1/messages, current directory returns to /home. 
 
 The output is not an error for these cases.
 
