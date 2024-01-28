@@ -8,13 +8,13 @@ case1: current directory: /home
 
 `[user@sahara ~]$`
 
-case2: current directory:: /lecture1
+case2: current directory: /lecture1
 
 `[user@sahara ~/lecture1]$ cd`
 
 `[user@sahara ~]$`
 
-case3: current directory:: /lecture1/messages
+case3: current directory: /lecture1/messages
 
 `[user@sahara ~/lecture1/messages]$ cd `
 
