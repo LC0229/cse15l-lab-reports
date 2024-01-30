@@ -95,7 +95,11 @@ Private Key: `/Users/chenshengrui/.ssh/id_rsa`
 
 By using `ls`, we can see id_rsa is in the /.ssh folder.
 
+
+
 <img width="784" alt="Screenshot 2024-01-27 at 5 33 19 PM" src="https://github.com/LC0229/cse15l-lab-reports/assets/156004283/3fa7cc70-4ca0-4687-b92b-51a0bb99a6bc">
+
+
 
 Public Key: `/home/linux/ieng6/oce/12/shc067/.ssh/authorized_keys`
 
@@ -103,6 +107,8 @@ By using `ls`, we can see `authorized_keys` is in the `/.ssh` folder of ieng6 fi
 
 
 <img width="777" alt="Screenshot 2024-01-27 at 5 28 50 PM" src="https://github.com/LC0229/cse15l-lab-reports/assets/156004283/105465ae-6734-4b84-81a8-65d7bcf22b69">
+
+
 
 A terminal interaction where you log into your ieng6 account without being asked for a password.
 
