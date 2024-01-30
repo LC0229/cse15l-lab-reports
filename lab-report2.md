@@ -5,12 +5,10 @@
 
 <img width="777" alt="Screenshot 2024-01-27 at 5 28 50 PM" src="https://github.com/LC0229/cse15l-lab-reports/assets/156004283/105465ae-6734-4b84-81a8-65d7bcf22b69">
 
+
 ```java
 import java.io.IOException;
 import java.net.URI;
-import java.util.List;
-
-
 
 
  class Handler implements URLHandler{
@@ -54,3 +52,4 @@ class ChatServer {
     }
 }
 ```
+    Firstly, let's start with the process of compiling. For starting the server, we need to `cd` our working directory to wavelet for accessing Server.java and ChatServer.java files, then we may compile both by using `javac` and put both as arguments. The reason we need Server.java is that it provides the method called `start` for us to start a server by putting port number and URLHandler as arguments. It helps us to create a website page with functions we created in ChatServer.java. For this ChatServer file, it imports `java.io` and `java.net` classes from standard library in java for handling Input/output(IOException) and dealing with URL(URI). 
