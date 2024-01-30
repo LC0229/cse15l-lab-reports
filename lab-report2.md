@@ -74,4 +74,19 @@ class ChatServer {
     argument, we will give a message `"Missing both port number and file path! Try any number between 1024 to 49151"`. If the input is valid, we will
     create an int variable called port to store the number we got from input, and put it as an argument for `.start()`method calling from Server   
     class, and `new Handler()` as the second argument for starting the Server.
-    Handler()` as the second 
+
+  <img width="1408" alt="Screenshot 2024-01-30 at 9 51 06 AM" src="https://github.com/LC0229/cse15l-lab-reports/assets/156004283/e4d72ae8-2eae-4bc9-bf59-5f302e6a18a7">
+
+  We startswith the first example, by inputting `/add-message?s=Hello&user=jpolitz` as Path, it called the `handleRequest` method with `https://0-0-0- 
+  0-6000-ru8ns4r41n8t7okit8dtdi7d7k.us.edusercontent.com/add-message?s=Hello&user=jpolitz` argument, it gives `s=Hello` and `user=jpolitz`, it gives 
+  the information of user `jpolitz` and message `Hello`, we can see by putting these two `<string>' as arguments into `String.format`, the `result` will be print 
+  out with the format we want with information we got.
+
+  
+  <img width="1408" alt="Screenshot 2024-01-30 at 9 52 36 AM" src="https://github.com/LC0229/cse15l-lab-reports/assets/156004283/96a17a96-d6fd-48d3-a290-2637485f7776">
+  By inputting `/add-message?s=Hi&user=Leon` as Path, it called the `handleRequest` method with `https://0-0-0-0-6000- 
+  ru8ns4r41n8t7okit8dtdi7d7k.us.edusercontent.com/add-message?s=Hi&user=Leon` argument, it gives `s=Hello` and `user=jpolitz`, it gives 
+  the information of user `Leon` and message `Hi`, we can see by putting these two `<string>' as arguments into `String.format`, the `result` 
+   will be print out with the format we want with information we got.
+
+   
