@@ -31,7 +31,7 @@ import java.net.URI;
             }
          }
 
-          return "404 Not Found!"; 
+          return "No message yet!"; 
     }
 
 
@@ -68,4 +68,5 @@ class ChatServer {
     `users`. Since we expect our out put consists of `user: message`, by splitting both `param[0]` and `param[1]` with `=`, we can store the two    
     `<string>` we need for output into `users[]`and `message[]`. After that, for display the output in the way we want, we call the method of 
     `String.format` for formatting it in `"%s: %s \n"`, we put `user[1]` as the first argument, since we would like to see the information of user 
-    before `:`, then we put `message[1]`as the second argument for putting the message information after `:`.
+    before `:`, then we put `message[1]`as the second argument for putting the message information after `:`. For storing  informations, we use the
+    `result` we created. If the Path of URL does not equal to `/add-message`, I give `"No message yet!"` information for without any input. 
