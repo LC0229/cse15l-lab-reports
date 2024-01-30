@@ -69,4 +69,9 @@ class ChatServer {
     `<string>` we need for output into `users[]`and `message[]`. After that, for display the output in the way we want, we call the method of 
     `String.format` for formatting it in `"%s: %s \n"`, we put `user[1]` as the first argument, since we would like to see the information of user 
     before `:`, then we put `message[1]`as the second argument for putting the message information after `:`. For storing  informations, we use the
-    `result` we created. If the Path of URL does not equal to `/add-message`, I give `"No message yet!"` information for without any input. 
+    `result` we created. If the Path of URL does not equal to `/add-message`, I give `"No message yet!"` information for without any input. For  
+    starting a website, we need have a `main` method for getting input from interminal, we throw IOException for avoiding invalid input. If there is no
+    argument, we will give a message `"Missing both port number and file path! Try any number between 1024 to 49151"`. If the input is valid, we will
+    create an int variable called port to store the number we got from input, and put it as an argument for `.start()`method calling from Server   
+    class, and `new Handler()` as the second argument for starting the Server.
+    Handler()` as the second 
