@@ -66,4 +66,6 @@ class ChatServer {
     starts with `s=`, `param[1]` starts with `user=`. For fulfilling the format, we expect `param[0]` be `s=<string>` and `param[1]` be 
     `user=<string>`, and only one `&` exists in the query. For getting the information we need, we create two String Array called `message` and   
     `users`. Since we expect our out put consists of `user: message`, by splitting both `param[0]` and `param[1]` with `=`, we can store the two    
-    `<string>` we need for output into `users`message[]`(
+    `<string>` we need for output into `users[]`and `message[]`. After that, for display the output in the way we want, we call the method of 
+    `String.format` for formatting it in `"%s: %s \n"`, we put `user[1]` as the first argument, since we would like to see the information of user 
+    before `:`, then we put `message[1]`as the second argument for putting the message information after `:`.
