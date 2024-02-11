@@ -43,7 +43,6 @@ import org.junit.*;
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-      //newArray[i] = arr[arr.length - i - 1];
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
@@ -62,5 +61,6 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-
+Explanation:
+We can see that after we created an int array called newArray, it contains 0s with the same length as arr. The problem happens at assigning part, we are assigning 0 to all index of arr, which should be reversed. Since based on screenshots, we always see the 0 for actual. By assignning the arr elements reversely into newArray, we can simply return newArray as the result of reversed method.
 
