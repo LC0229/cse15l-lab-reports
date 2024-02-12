@@ -69,7 +69,9 @@ We can see that after we created an int array called newArray, it contains 0s wi
 
 
 
-## Part1-Less Commands
+## Part2-Less Commands
+
+---
 
 * Case1 less -E
 
@@ -427,7 +429,7 @@ chenshengrui@zuis-MacBook-Pro technical %
 
 When we read a book like 911report, we want to do a quick check for the preface of the book. At here, we used less -E command, which helps us to do a quick review and I don't want use `less` to open it and wait for my command to exit.
 
-
+---
 * Case2 less -N
 
 Displays line numbers at the beginning of each line.
@@ -642,6 +644,7 @@ chenshengrui@zuis-MacBook-Pro technical %
 ```
 The less -N command gives the lines of number for each line for the context we input. When it comes to a large file, the use of number lines is really important. When we are processing text files, having line numbers available can be helpful for extracting specific lines or performing operations based on line numbers.
 
+---
 
 * Case3 less -s
 It's merging consecutive blank lines into a single blank line, saving spaces and time for scrolling.
@@ -871,13 +874,15 @@ Example2:
 In this situation, by using less -s, the content of the file is condense. `less -s` can provide a more compact and concise view of the content, allowing me to see more information on the screen at once, 
 which saved a lot of time and space.
 
-![Screenshot 2024-02-11 at 8 44 11 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/de94a5dd-a766-4bcd-afd7-96222d0a4573)
+
+---
 
 
 * Case4 less -X
 
 Keep the content of the file on the terminal, instead of quitting it by the end.
 
+Example1:
 
 ```
 chenshengrui@zuis-MacBook-Pro technical % less -X  911report/preface.txt   
@@ -920,3 +925,37 @@ We can simply see the content of the file in the process of typing command, we d
 
 
 Example2:
+
+```
+  chenshengrui@zuis-MacBook-Pro technical % less -X  plos/pmed.0010047.txt 
+  A malaria vaccine called ME-TRAP, which targets the pre-erythrocytic stage of the
+        disease, was not effective at reducing natural infection rates in semi-immune African
+        adults, according to the report of a randomized controlled trial published this month in 
+        PLoS Medicine . “This first field efficacy trial was an important
+        milestone in the progression of new recombinant vectored vaccines to deployable products,”
+        says Adrian Hill (University of Oxford, United Kingdom), the lead investigator of the
+        study. “The safety profile was excellent and the efficacy data provide a first indication
+        of the levels of cellular immunogenicity that will be required for preventing infection,”
+        he says.
+        Hill and his co-workers used a heterologous prime–boost vaccination technique. They gave
+        the volunteers two vaccines—a DNA priming vaccine followed by a modified vaccinia virus
+        Ankara (MVA) that acted as a booster. The DNA and MVA vaccines both had the same insert
+        coding for thrombospondin-related adhesion protein (TRAP; a pre-erythrocytic antigen) and a
+        string of T cell epitopes (called ME for “multiple epitopes”).
+        Hill's team had previously shown that ME-TRAP vaccines given in prime–boost sequence
+        could induce large T cell responses in healthy volunteers from the UK and could delay
+        parasitemia in a sporozoite challenge test (Nat Med 9: 729–735). The next step was to do a
+        randomized controlled trial in Gambia to determine whether this vaccination strategy could
+        provide protection against natural 
+        Plasmodium falciparum infection.
+        The researchers recruited volunteers from 13 Gambian villages that were close to the
+        alluvial flood plain and so were at high risk of developing malaria. They randomly assigned
+        the 372 volunteers to receive either two doses of the DNA ME-TRAP vaccine followed by a
+        single dose of MVA ME-TRAP, or three doses of rabies vaccine. This three-dose schedule is
+        similar to the one used by the World Health Organization/United Nations Children's Fund
+        Expanded Program on Immunization. Two weeks before the third dose was given, all the
+        volunteers received antimalarial drugs to clear blood-stage 
+chenshengrui@zuis-MacBook-Pro technical % 
+```
+
+When I'm working in a terminal and want to view a file with less without losing the context of the current terminal window, `less -X ` prevents the screen from being cleared before opening less. At here, i can simply see the content with any disruption in flow.
