@@ -551,4 +551,96 @@ Example1:
 The less -N command gives the lines of number for each line in preface.txt, which helps us to track information in a .txt file at specific line.
 
 
+Example2:
+
+```java
+chenshengrui@zuis-MacBook-Pro technical % less -N  plos/pmed.0010047.txt 
+      1 
+            1 
+      2   
+      3     
+      4       
+      5         
+      6         A malaria vaccine called ME-TRAP, which targets the pre-erythrocytic stage of the
+      7         disease, was not effective at reducing natural infection rates in semi-immune African
+      8         adults, according to the report of a randomized controlled trial published this month in 
+      9         PLoS Medicine . “This first field efficacy trial was an important
+     10         milestone in the progression of new recombinant vectored vaccines to deployable products,”
+     11         says Adrian Hill (University of Oxford, United Kingdom), the lead investigator of the
+     12         study. “The safety profile was excellent and the efficacy data provide a first indication
+     13         of the levels of cellular immunogenicity that will be required for preventing infection,”
+     14         he says.
+     15         Hill and his co-workers used a heterologous prime–boost vaccination technique. They gave
+     16         the volunteers two vaccines—a DNA priming vaccine followed by a modified vaccinia virus
+     17         Ankara (MVA) that acted as a booster. The DNA and MVA vaccines both had the same insert
+     18         coding for thrombospondin-related adhesion protein (TRAP; a pre-erythrocytic antigen) and a
+     19         string of T cell epitopes (called ME for “multiple epitopes”).
+     20         Hill's team had previously shown that ME-TRAP vaccines given in prime–boost sequence
+     21         could induce large T cell responses in healthy volunteers from the UK and could delay
+     22         parasitemia in a sporozoite challenge test (Nat Med 9: 729–735). The next step was to do a
+     23         randomized controlled trial in Gambia to determine whether this vaccination strategy could
+     24         provide protection against natural 
+     25         Plasmodium falciparum infection.
+     26         The researchers recruited volunteers from 13 Gambian villages that were close to the
+     27         alluvial flood plain and so were at high risk of developing malaria. They randomly assigned
+     28         the 372 volunteers to receive either two doses of the DNA ME-TRAP vaccine followed by a
+     29         single dose of MVA ME-TRAP, or three doses of rabies vaccine. This three-dose schedule is
+     30         similar to the one used by the World Health Organization/United Nations Children's Fund
+     31         Expanded Program on Immunization. Two weeks before the third dose was given, all the
+     32         volunteers received antimalarial drugs to clear blood-stage 
+     33         P. falciparum infections.
+     34         The time to first infection, the primary end point of the study, was similar in the two
+     35         groups, with an estimated vaccine efficacy of only 10%. However, the effector T cell
+     36         response to the TRAP antigen T9/96, measured one week after the third vaccination, was 80
+     37         times higher in the DNA/MVA vaccine group than in the rabies vaccine group.
+     38         “It is absolutely crucial that results like these are published, since the failures, as
+     39         well as the successes, need to be documented if we are to move towards rational strategies
+     40         for optimizing malaria vaccines,” says Tom Smith from the Swiss Tropical Institute, who was
+     41         not involved in the study. “At the same time, it makes sense to move on quickly without
+     42         shedding too many tears, in a field that is moving much faster than it was before the
+     43         recent injections of money from the Gates Foundation, but where it is still impossible to
+     44         second-guess the results of field trials. This is partly because we do not have any good
+     45         proxy measures of effective immunity in 
+     46         P. falciparum , and partly because this is a fertile area for
+     47         trying out new techniques, such as DNA vaccines, where there is still a lot to learn.”
+     48         Hill is planning to do further trials that address the important question of whether
+     49         this type of vaccine can prevent the symptoms of malaria. “The next step,” says Hill, “is
+     50         to assess newer vaccine regimes that employ two viral vectors rather than DNA and to study
+     51         prevention of malaria rather than infection.”
+     52       
+     53     
+     54   
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+chenshengrui@zuis-MacBook-Pro technical %
+```
+The less -N command gives the lines of number for each line for the context we input. When it comes to a large file, the use of number lines is really important. When we are processing text files, having line numbers available can be helpful for extracting specific lines or performing operations based on line numbers.
+
+
 
