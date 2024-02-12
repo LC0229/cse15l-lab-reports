@@ -71,7 +71,7 @@ We can see that after we created an int array called newArray, it contains 0s wi
 
 ## Part1-Less Commands
 
-*Case1 less -E
+* Case1 less -E
 
 less automatically exits upon reaching the end of file.
 
@@ -79,7 +79,7 @@ less automatically exits upon reaching the end of file.
 
 Example1:
 
-```java
+```
 chenshengrui@zuis-MacBook-Pro technical % less -E plos/journal.pbio.0020001.txt
 
  Kofi Annan, the Secretary-General of the United Nations, recently called attention to
@@ -315,7 +315,7 @@ Compared to less, less - E automatically exits upon reaching the end of journal.
 
 Example2:
 
-```java
+```
 
 chenshengrui@zuis-MacBook-Pro technical % less -E 911report/preface.txt
  PREFACE
@@ -428,7 +428,7 @@ chenshengrui@zuis-MacBook-Pro technical %
 When we read a book like 911report, we want to do a quick check for the preface of the book. At here, we used less -E command, which helps us to do a quick review and I don't want use `less` to open it and wait for my command to exit.
 
 
-*Case2 less -N
+* Case2 less -N
 
 Displays line numbers at the beginning of each line.
 
@@ -436,7 +436,7 @@ Displays line numbers at the beginning of each line.
 
 Example1:
 
-```java
+```
 chenshengrui@zuis-MacBook-Pro technical % less -N 911report/preface.txt
       1 
       2     
@@ -554,7 +554,7 @@ The less -N command gives the lines of number for each line in preface.txt, whic
 
 Example2:
 
-```java
+```
 chenshengrui@zuis-MacBook-Pro technical % less -N  plos/pmed.0010047.txt 
       1 
       2   
@@ -643,7 +643,7 @@ chenshengrui@zuis-MacBook-Pro technical %
 The less -N command gives the lines of number for each line for the context we input. When it comes to a large file, the use of number lines is really important. When we are processing text files, having line numbers available can be helpful for extracting specific lines or performing operations based on line numbers.
 
 
-*Case3 less -s
+* Case3 less -s
 It's merging consecutive blank lines into a single blank line, saving spaces and time for scrolling.
 
 (https://phoenixnap.com/kb/less-command-in-linux)
@@ -652,7 +652,7 @@ I put screenshots since I did not see if github page shows single space for cont
 
 Example1:
 
-```java
+```
 chenshengrui@zuis-MacBook-Pro technical % less -s 911report/preface.txt  
 
             PREFACE
@@ -768,7 +768,7 @@ In this situation, I want to quickly scan through the file for specific informat
 
 
 Example2:
-```java
+```
  For people who received their introduction to cancer genetics in college in the first
         half of the 1990s, everything looked simple and straightforward. It was the stuff you could
         explain to sincerely interested relatives who wanted to know what you were spending your
@@ -874,12 +874,12 @@ which saved a lot of time and space.
 ![Screenshot 2024-02-11 at 8 44 11 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/de94a5dd-a766-4bcd-afd7-96222d0a4573)
 
 
-*Case4 less -X
+* Case4 less -X
 
 Keep the content of the file on the terminal, instead of quitting it by the end.
 
 
-```java
+```
 chenshengrui@zuis-MacBook-Pro technical % less -X  911report/preface.txt   
 
     
