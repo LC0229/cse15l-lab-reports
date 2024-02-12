@@ -437,6 +437,7 @@ Displays line numbers at the beginning of each line.
 Example1:
 
 ```java
+chenshengrui@zuis-MacBook-Pro technical % less -N 911report/preface.txt
       1 
       2     
       3         
@@ -556,7 +557,6 @@ Example2:
 ```java
 chenshengrui@zuis-MacBook-Pro technical % less -N  plos/pmed.0010047.txt 
       1 
-            1 
       2   
       3     
       4       
@@ -643,4 +643,280 @@ chenshengrui@zuis-MacBook-Pro technical %
 The less -N command gives the lines of number for each line for the context we input. When it comes to a large file, the use of number lines is really important. When we are processing text files, having line numbers available can be helpful for extracting specific lines or performing operations based on line numbers.
 
 
+*Case3 less -s
+It's merging consecutive blank lines into a single blank line, saving spaces and time for scrolling.
 
+(https://phoenixnap.com/kb/less-command-in-linux)
+
+I put screenshots since I did not see if github page shows single space for content
+
+Example1:
+
+```java
+chenshengrui@zuis-MacBook-Pro technical % less -s 911report/preface.txt  
+
+            PREFACE
+            We present the narrative of this report and the recommendations that flow from it to
+                the President of the United States, the United States Congress, and the American
+                people for their consideration. Ten Commissioners-five Republicans and five
+                Democrats chosen by elected leaders from our nation's capital at a time of great
+                partisan division-have come together to present this report without dissent.
+            We have come together with a unity of purpose because our nation demands it.
+                September 11, 2001, was a day of unprecedented shock and suffering in the history of
+                the United States. The nation was unprepared. How did this happen, and how can we
+                avoid such tragedy again?
+            To answer these questions, the Congress and the President created the National
+                Commission on Terrorist Attacks Upon the United States (Public Law 107-306, November
+                27, 2002).
+            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+                relating to the terrorist attacks of September 11, 2001," including those relating
+                to intelligence agencies, law enforcement agencies, diplomacy, immigration issues
+                and border control, the flow of assets to terrorist organizations, commercial
+                aviation, the role of congressional oversight and resource allocation, and other
+                areas determined relevant by the Commission. In pursuing our mandate, we have
+                reviewed more than 2.5 million pages of documents and interviewed more than 1,200
+                individuals in ten countries. This included nearly every senior official from the
+                current and previous administrations who had responsibility for topics covered in
+                our mandate. We have sought to be independent, impartial, thorough, and nonpartisan.
+                From the outset, we have been committed to share as much of our investigation as we
+                can with the American people. To that end, we held 19 days of hearings and took
+                public testimony from 160 witnesses.
+            Our aim has not been to assign individual blame. Our aim has been to provide the
+                fullest possible account of the events surrounding 9/11 and to identify lessons
+                learned.
+            We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
+                enemy rallies broad support in the Arab and Muslim world by demanding redress of
+                political grievances, but its hostility toward us and our values is limitless. Its
+                purpose is to rid the world of religious and political pluralism, the plebiscite,
+                and equal rights for women. It makes no distinction between military and civilian
+                targets. Collateral damage is not in its lexicon.
+            We learned that the institutions charged with protecting our borders, civil aviation,
+                and national security did not understand how grave this threat could be, and did not
+                adjust their policies, plans, and practices to deter or defeat it. We learned of
+                fault lines within our government-between foreign and domestic intelligence, and
+                between and within agencies. We learned of the pervasive problems of managing and
+                sharing information across a large and unwieldy government that had been built in a
+                different era to confront different dangers.
+            At the outset of our work, we said we were looking backward in order to look forward.
+                We hope that the terrible losses chronicled in this report can create something
+                positive-an America that is safer, stronger, and wiser. That September day, we came
+                together as a nation. The test before us is to sustain that unity of purpose and
+                meet the challenges now confronting us. We need to design a balanced strategy for
+                the long haul, to attack terrorists and prevent their ranks from swelling while at
+                the same time protecting our country against future attacks. We have been forced to
+                think about the way our government is organized. The massive departments and
+                agencies that prevailed in the great struggles of the twentieth century must work
+                together in new ways, so that all the instruments of national power can be combined.
+                Congress needs dramatic change as well to strengthen oversight and focus
+                accountability.
+            As we complete our final report, we want to begin by thanking our fellow
+                Commissioners, whose dedication to this task has been profound. We have reasoned
+                together over every page, and the report has benefited from this remarkable
+                dialogue. We want to express our considerable respect for the intellect and judgment
+                of our colleagues, as well as our great affection for them.
+            We want to thank the Commission staff. The dedicated professional staff, headed by
+                Philip Zelikow, has contributed innumerable hours to the completion of this report,
+                setting aside other important endeavors to take on this all-consuming assignment.
+                They have conducted the exacting investigative work upon which the Commission has
+                built. They have given good advice, and faithfully carried out our guidance. They
+                have been superb. We thank the Congress and the President. Executive branch agencies
+                have searched records and produced a multitude of documents for us. We thank
+                officials, past and present, who were generous with their time and provided us with
+                insight. The PENTTBOM team at the FBI, the Director's Review Group at the CIA, and
+                Inspectors General at the Department of Justice and the CIA provided great
+                assistance. We owe a huge debt to their investigative labors, painstaking attention
+                to detail, and readiness to share what they have learned. We have built on the work
+                of several previous Commissions, and we thank the Congressional Joint Inquiry, whose
+                fine work helped us get started. We thank the City of New York for assistance with
+                documents and witnesses, and the Government Printing Office and W.W. Norton
+                & Company for helping to get this report to the broad public.
+            We conclude this list of thanks by coming full circle: We thank the families of 9/11,
+                whose persistence and dedication helped create the Commission. They have been with
+                us each step of the way, as partners and witnesses. They know better than any of us
+                the importance of the work we have undertaken.
+            We want to note what we have done, and not done. We have endeavored to provide the
+                most complete account we can of the events of September 11, what happened and why.
+                This final report is only a summary of what we have done, citing only a fraction of
+                the sources we have consulted. But in an event of this scale, touching so many
+                issues and organizations, we are conscious of our limits. We have not interviewed
+                every knowledgeable person or found every relevant piece of paper. New information
+                inevitably will come to light. We present this report as a foundation for a better
+                understanding of a landmark in the history of our nation.
+            We have listened to scores of overwhelming personal tragedies and astounding acts of
+                heroism and bravery. We have examined the staggering impact of the events of 9/11 on
+                the American people and their amazing resilience and courage as they fought back. We
+                have admired their determination to do their best to prevent another tragedy while
+                preparing to respond if it becomes necessary. We emerge from this investigation with
+                enormous sympathy for the victims and their loved ones, and with enhanced respect
+                for the American people. We recognize the formidable challenges that lie ahead.
+            We also approach the task of recommendations with humility. We have made a limited
+                number of them. We decided consciously to focus on recommendations we believe to be
+                most important, whose implementation can make the greatest difference. We came into
+                this process with strong opinions about what would work. All of us have had to
+                pause, reflect, and sometimes change our minds as we studied these problems and
+                considered the views of others. We hope our report will encourage our fellow
+                citizens to study, reflect-and act.
+            Thomas H. Kean, chair
+            Lee H. Hamilton, vice chair
+        
+    
+(END)
+```
+![Screenshot 2024-02-11 at 6 16 36 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/6fa0a4cb-9405-409e-a2e9-9718e684655e)
+
+In this situation, I want to quickly scan through the file for specific information, having fewer empty lines can speed up the process by reducing the amount of scrolling required to navigate through the file.
+
+
+Example2:
+```java
+ For people who received their introduction to cancer genetics in college in the first
+        half of the 1990s, everything looked simple and straightforward. It was the stuff you could
+        explain to sincerely interested relatives who wanted to know what you were spending your
+        time on. There were oncogenes and there were tumour suppressor genes. Oncogenes were
+        overactive genes and proteins that somehow caused cancer because they were overactive;
+        therefore, they were dominant. Tumour suppressor genes were genes that would normally
+        prevent a tumour from happening and that needed to be inactivated for a tumour to start to
+        form; both copies of a tumour suppressor gene had to be inactivated, and the mutation was
+        recessive. If inactivation of these genes is a random process, it was understandable that
+        people who inherit an inactivated copy of a tumour suppressor gene had a higher risk of
+        developing the associated form(s) of cancer than people born with two normal copies, as
+        postulated in Alfred Knudson's (1971) two-hit model. And, indeed, it was shown that in the
+        tumours in these predisposed patients, the remaining wild-type copy of the tumour
+        suppressor gene was lost, a process referred to as loss of heterozygosity.
+        For me, in 1998 things started to change. Venkatachalam et al. (1998) published a paper
+        in the 
+        EMBO Journal describing a detailed study of tumours in mice lacking one
+        copy of the p53 tumour suppressor gene (
+        Trp53 ). This gene is known to be the most mutated gene in human cancer
+        and its function to be central to many processes that are involved in the cellular
+        prevention of cancer. Mice lacking both copies of this gene are for the most part viable,
+        but succumb to cancer (mainly thymic lymphomas) at three to five months of age (Donehower
+        et al. 1992). Mice born with one copy of the 
+        Trp53 gene start to develop cancer at around nine months, and incidence
+        increases with age.
+        In their study, Venkatachalam and colleagues analysed an impressive group of 217 
+        Trp53
+        +/− mice of controlled genetic background and followed the fate of the 
+        Trp53 wild-type allele in the tumours. According to the two-hit model, it
+        was expected that in these tumours this copy would have been lost or inactivated. However,
+        this turned out not to be the case. Half of the tumours from mice younger than 18 months
+        were found to have retained the wild-type copy of 
+        Trp53 , a number that increased to 85% in mice older than 18 months. In
+        two tumours, the researchers sequenced the complete coding region of the remaining
+        wild-type allele and showed it was structurally intact. To exclude the possibility of
+        downregulation or inactivation at the level of protein expression, they irradiated
+        tumour-bearing mice prior to sacrifice, a treatment known to increase p53 protein levels
+        via posttranslational mechanisms. Their data showed the retained wild-type allele in these
+        tumours was expressed normally and suggested it had a normal wild-type conformation.
+        Next, the authors did a rigorous test of different functions of the p53 protein. They
+        first tested whether the tumours showed amplification of Mdm2. This protein, whose
+        expression is regulated by p53, stimulates breakdown of p53, thereby forming a negative
+        feedback mechanism that keeps p53 levels low. Some tumours therefore amplify the 
+        Mdm2 gene as a means of inactivating p53. However, this was not found in
+        the tumours from the 
+        Trp53
+        +/− mice. Subsequently, the researchers tested to what extent the
+        retained 
+        Trp53 copy behaved normally. Irradiation of many tissues leads to
+        p53-dependent apoptosis, and, indeed, in tumours that had retained the wild-type allele,
+        irradiation did lead to an increase in apoptosis, whereas in tumours that had lost the
+        wild-type allele, it did not.
+        The p53 protein is known to function as a transcriptional regulator by either up- or
+        down regulating target genes in response to different forms of cellular stress, including
+        irradiation-induced DNA damage. The authors studied the expression of two p53-upregulated
+        genes (
+        Cdkn1a , which encodes p21, and 
+        Mdm2 ) and one downregulated gene (
+        Pcna ) in p53-positive tumours after irradiation and showed responses
+        indicative of normal p53 function. Furthermore, it was shown that the p53 protein from the
+        tumours was able to bind to a p53-binding DNA sequence in an in vitro setting. Finally,
+        since it is known that p53 absence in tumours is correlated with chromosomal instability,
+        Venkatachalam et al. (1998) used comparative genome hybridisation to compare this feature
+        between p53-negative and p53-positive tumours and found a 5-fold greater stability in the
+        latter.
+        In short, this paper clearly showed that, at least in mice, in many 
+        Trp53
+        +/− tumours the wild-type allele of 
+        Trp53 is not only retained, but also appears to function normally. This
+        strongly suggested that a decrease of dosage in p53 is already sufficient for
+        tumourigenesis, a phenomenon referred to as haploinsufficiency. Shortly before, the group
+        of Moshe Oren (Gottlieb et al. 1997) had shown that a 
+        Trp53
+        +/− background leads to a greater than 50% reduction in p53 activity
+        using a p53-responsive 
+        lacZ reporter gene in transgenic mice. Venkatachalam and colleagues
+        suggested the strong concentration dependence of p53 function could be explained by the
+        fact that p53 functions as a tetramer. A 50% decrease in p53 monomers can easily be
+        imagined to result in a greater than 50% decrease in functional tetramers, which in turn
+        increases the chances of these cells becoming cancerous.
+        This paper by Venkatachalam et al. (1998) made me realise how important it is to remain
+        critical, even of long-established theories and models. Since then, haploinsufficient
+        mechanisms have been described in more tumour suppressor genes in humans and mice (reviewed
+        in Fodde and Smits 2002). For instance, in a recent paper in
+        PLoS Biology , Trotman et al. (2003) used mouse models to describe how
+        the dosage of the 
+        Pten tumour suppressor gene influences the occurrence of prostate cancer.
+        Further genes have been described with other unexpected roles in the tumourigenic process.
+        There is a long-standing debate in the literature about the number and role of mutations in
+        a tumour, and without going into the details, it is clear that haploinsufficient mechanisms
+        for tumour suppressor genes will greatly influence the statistics on which these
+        discussions are based. At a time when microarray analysis has become a standard experiment
+        and the many thousands of changes in tumour cells are analysed across the whole genome, it
+        is important to keep in mind that the correct interpretation of this wealth of information
+        might be more complicated than the widely accepted models would have us believe.
+```
+![Screenshot 2024-02-11 at 6 13 40 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/f47f550c-ed76-4b95-9331-fde447511579)
+
+
+In this situation, by using less -s, the content of the file is condense. `less -s` can provide a more compact and concise view of the content, allowing me to see more information on the screen at once, 
+which saved a lot of time and space.
+
+![Screenshot 2024-02-11 at 8 44 11 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/de94a5dd-a766-4bcd-afd7-96222d0a4573)
+
+
+*Case4 less -X
+
+Keep the content of the file on the terminal, instead of quitting it by the end.
+
+
+```java
+chenshengrui@zuis-MacBook-Pro technical % less -X  911report/preface.txt   
+
+    
+        
+            PREFACE
+            We present the narrative of this report and the recommendations that flow from it to
+                the President of the United States, the United States Congress, and the American
+                people for their consideration. Ten Commissioners-five Republicans and five
+                Democrats chosen by elected leaders from our nation's capital at a time of great
+                partisan division-have come together to present this report without dissent.
+            We have come together with a unity of purpose because our nation demands it.
+                September 11, 2001, was a day of unprecedented shock and suffering in the history of
+                the United States. The nation was unprepared. How did this happen, and how can we
+                avoid such tragedy again?
+            To answer these questions, the Congress and the President created the National
+                Commission on Terrorist Attacks Upon the United States (Public Law 107-306, November
+                27, 2002).
+            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+                relating to the terrorist attacks of September 11, 2001," including those relating
+                to intelligence agencies, law enforcement agencies, diplomacy, immigration issues
+                and border control, the flow of assets to terrorist organizations, commercial
+                aviation, the role of congressional oversight and resource allocation, and other
+                areas determined relevant by the Commission. In pursuing our mandate, we have
+                reviewed more than 2.5 million pages of documents and interviewed more than 1,200
+                individuals in ten countries. This included nearly every senior official from the
+                current and previous administrations who had responsibility for topics covered in
+                our mandate. We have sought to be independent, impartial, thorough, and nonpartisan.
+                From the outset, we have been committed to share as much of our investigation as we
+                can with the American people. To that end, we held 19 days of hearings and took
+                public testimony from 160 witnesses.
+            Our aim has not been to assign individual blame. Our aim has been to provide the
+                fullest possible account of the events surrounding 9/11 and to identify lessons
+                learned.
+chenshengrui@zuis-MacBook-Pro technical %
+```
+We can simply see the content of the file in the process of typing command, we do not have to go to the content screen and quit for it. It allows me to work continuously when I'm doing work.
+
+
+
+Example2:
