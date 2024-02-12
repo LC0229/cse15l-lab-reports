@@ -73,6 +73,8 @@ We can see that after we created an int array called newArray, it contains 0s wi
 
 *Case1 less -E
 
+less automatically exits upon reaching the end of file.
+
 (https://phoenixnap.com/kb/less-command-in-linux)
 
 Example1:
@@ -310,6 +312,7 @@ chenshengrui@zuis-MacBook-Pro technical % less -E plos/journal.pbio.0020001.txt
 
 Compared to less, less - E automatically exits upon reaching the end of journal.pbio.0020001.txt, which is useful if we want to do a quick check for the content of the file.
 
+
 Example2:
 
 ```java
@@ -425,4 +428,127 @@ chenshengrui@zuis-MacBook-Pro technical %
 When we read a book like 911report, we want to do a quick check for the preface of the book. At here, we used less -E command, which helps us to do a quick review and I don't want use `less` to open it and wait for my command to exit.
 
 
-*Case2 less -F
+*Case2 less -N
+
+Displays line numbers at the beginning of each line.
+
+(https://phoenixnap.com/kb/less-command-in-linux)
+
+Example1:
+
+```java
+      1 
+      2     
+      3         
+      4             PREFACE
+      5             We present the narrative of this report and the recommendations that flow from it to
+      6                 the President of the United States, the United States Congress, and the American
+      7                 people for their consideration. Ten Commissioners-five Republicans and five
+      8                 Democrats chosen by elected leaders from our nation's capital at a time of great
+      9                 partisan division-have come together to present this report without dissent.
+     10             We have come together with a unity of purpose because our nation demands it.
+     11                 September 11, 2001, was a day of unprecedented shock and suffering in the history of
+     12                 the United States. The nation was unprepared. How did this happen, and how can we
+     13                 avoid such tragedy again?
+     14             To answer these questions, the Congress and the President created the National
+     15                 Commission on Terrorist Attacks Upon the United States (Public Law 107-306, November
+     16                 27, 2002).
+     17             Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+     18                 relating to the terrorist attacks of September 11, 2001," including those relating
+     19                 to intelligence agencies, law enforcement agencies, diplomacy, immigration issues
+     20                 and border control, the flow of assets to terrorist organizations, commercial
+     21                 aviation, the role of congressional oversight and resource allocation, and other
+     22                 areas determined relevant by the Commission. In pursuing our mandate, we have
+     23                 reviewed more than 2.5 million pages of documents and interviewed more than 1,200
+     24                 individuals in ten countries. This included nearly every senior official from the
+     25                 current and previous administrations who had responsibility for topics covered in
+     26                 our mandate. We have sought to be independent, impartial, thorough, and nonpartisan.
+     27                 From the outset, we have been committed to share as much of our investigation as we
+     28                 can with the American people. To that end, we held 19 days of hearings and took
+     29                 public testimony from 160 witnesses.
+     30             Our aim has not been to assign individual blame. Our aim has been to provide the
+     31                 fullest possible account of the events surrounding 9/11 and to identify lessons
+     32                 learned.
+     33             We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
+     34                 enemy rallies broad support in the Arab and Muslim world by demanding redress of
+     35                 political grievances, but its hostility toward us and our values is limitless. Its
+     36                 purpose is to rid the world of religious and political pluralism, the plebiscite,
+     37                 and equal rights for women. It makes no distinction between military and civilian
+     38                 targets. Collateral damage is not in its lexicon.
+     39             We learned that the institutions charged with protecting our borders, civil aviation,
+     40                 and national security did not understand how grave this threat could be, and did not
+     41                 adjust their policies, plans, and practices to deter or defeat it. We learned of
+     42                 fault lines within our government-between foreign and domestic intelligence, and
+     43                 between and within agencies. We learned of the pervasive problems of managing and
+     44                 sharing information across a large and unwieldy government that had been built in a
+     45                 different era to confront different dangers.
+     46             At the outset of our work, we said we were looking backward in order to look forward.
+     47                 We hope that the terrible losses chronicled in this report can create something
+     48                 positive-an America that is safer, stronger, and wiser. That September day, we came
+     49                 together as a nation. The test before us is to sustain that unity of purpose and
+     50                 meet the challenges now confronting us. We need to design a balanced strategy for
+     51                 the long haul, to attack terrorists and prevent their ranks from swelling while at
+     52                 the same time protecting our country against future attacks. We have been forced to
+     53                 think about the way our government is organized. The massive departments and
+     54                 agencies that prevailed in the great struggles of the twentieth century must work
+     55                 together in new ways, so that all the instruments of national power can be combined.
+     56                 Congress needs dramatic change as well to strengthen oversight and focus
+     57                 accountability.
+     58             As we complete our final report, we want to begin by thanking our fellow
+     59                 Commissioners, whose dedication to this task has been profound. We have reasoned
+     60                 together over every page, and the report has benefited from this remarkable
+     61                 dialogue. We want to express our considerable respect for the intellect and judgment
+     62                 of our colleagues, as well as our great affection for them.
+     63             We want to thank the Commission staff. The dedicated professional staff, headed by
+     64                 Philip Zelikow, has contributed innumerable hours to the completion of this report,
+     65                 setting aside other important endeavors to take on this all-consuming assignment.
+     66                 They have conducted the exacting investigative work upon which the Commission has
+     67                 built. They have given good advice, and faithfully carried out our guidance. They
+     68                 have been superb. We thank the Congress and the President. Executive branch agencies
+     69                 have searched records and produced a multitude of documents for us. We thank
+     70                 officials, past and present, who were generous with their time and provided us with
+     71                 insight. The PENTTBOM team at the FBI, the Director's Review Group at the CIA, and
+     72                 Inspectors General at the Department of Justice and the CIA provided great
+     73                 assistance. We owe a huge debt to their investigative labors, painstaking attention
+     74                 to detail, and readiness to share what they have learned. We have built on the work
+     75                 of several previous Commissions, and we thank the Congressional Joint Inquiry, whose
+     76                 fine work helped us get started. We thank the City of New York for assistance with
+     77                 documents and witnesses, and the Government Printing Office and W.W. Norton
+     78                 & Company for helping to get this report to the broad public.
+     79             We conclude this list of thanks by coming full circle: We thank the families of 9/11,
+     80                 whose persistence and dedication helped create the Commission. They have been with
+     81                 us each step of the way, as partners and witnesses. They know better than any of us
+     82                 the importance of the work we have undertaken.
+     83             We want to note what we have done, and not done. We have endeavored to provide the
+     84                 most complete account we can of the events of September 11, what happened and why.
+     85                 This final report is only a summary of what we have done, citing only a fraction of
+     86                 the sources we have consulted. But in an event of this scale, touching so many
+     87                 issues and organizations, we are conscious of our limits. We have not interviewed
+     88                 every knowledgeable person or found every relevant piece of paper. New information
+     89                 inevitably will come to light. We present this report as a foundation for a better
+     90                 understanding of a landmark in the history of our nation.
+     91             We have listened to scores of overwhelming personal tragedies and astounding acts of
+     92                 heroism and bravery. We have examined the staggering impact of the events of 9/11 on
+     93                 the American people and their amazing resilience and courage as they fought back. We
+     94                 have admired their determination to do their best to prevent another tragedy while
+     95                 preparing to respond if it becomes necessary. We emerge from this investigation with
+     96                 enormous sympathy for the victims and their loved ones, and with enhanced respect
+     97                 for the American people. We recognize the formidable challenges that lie ahead.
+     98             We also approach the task of recommendations with humility. We have made a limited
+     99                 number of them. We decided consciously to focus on recommendations we believe to be
+    100                 most important, whose implementation can make the greatest difference. We came into
+    101                 this process with strong opinions about what would work. All of us have had to
+    102                 pause, reflect, and sometimes change our minds as we studied these problems and
+    103                 considered the views of others. We hope our report will encourage our fellow
+    104                 citizens to study, reflect-and act.
+    105             Thomas H. Kean, chair
+    106             Lee H. Hamilton, vice chair
+    107         
+    108     
+(END)
+```
+
+The less -N command gives the lines of number for each line in preface.txt, which helps us to track information in a .txt file at specific line.
+
+
+
