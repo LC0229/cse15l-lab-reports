@@ -308,8 +308,7 @@ chenshengrui@zuis-MacBook-Pro technical % less -E plos/journal.pbio.0020001.txt
         target the journals that have the greatest impact. Although there may still be a long road
         to travel, we feel optimistic that the bridges mentioned by Mr. Annan are slowly being
         built.
-      
- chenshengrui@zuis-MacBook-Pro technical %    
+         
 
 ```
 
@@ -425,7 +424,7 @@ chenshengrui@zuis-MacBook-Pro technical % less -E 911report/preface.txt
             Thomas H. Kean, chair
             Lee H. Hamilton, vice chair
 
-chenshengrui@zuis-MacBook-Pro technical %
+
 ```
 
 When we read a book like 911report, we want to do a quick check for the preface of the book. At here, we used less -E command, which helps us to do a quick review and I don't want use `less` to open it and wait for my command to exit.
@@ -641,7 +640,6 @@ chenshengrui@zuis-MacBook-Pro technical % less -N  plos/pmed.0010047.txt
 ~
 ~
 (END)
-chenshengrui@zuis-MacBook-Pro technical %
 ```
 The less -N command gives the lines of number for each line for the context we input. When it comes to a large file, the use of number lines is really important. When we are processing text files, having line numbers available can be helpful for extracting specific lines or performing operations based on line numbers.
 
