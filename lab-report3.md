@@ -647,7 +647,7 @@ The less -N command gives the lines of number for each line for the context we i
 
 ---
 
-* Case3 less -s
+* Case3 less -M
 Instructs less to prompt verbosely (similar to more), showing the percentage into the file.
 
 (https://phoenixnap.com/kb/less-command-in-linux)
@@ -656,10 +656,35 @@ Instructs less to prompt verbosely (similar to more), showing the percentage int
 Example1:
 
 ```
-
+chenshengrui@zuis-MacBook-Pro technical % less -M plos/pmed.0010047.txt 
+A malaria vaccine called ME-TRAP, which targets the pre-erythrocytic stage of the
+        disease, was not effective at reducing natural infection rates in semi-immune African
+        adults, according to the report of a randomized controlled trial published this month in 
+        PLoS Medicine . “This first field efficacy trial was an important
+        milestone in the progression of new recombinant vectored vaccines to deployable products,”
+        says Adrian Hill (University of Oxford, United Kingdom), the lead investigator of the
+        study. “The safety profile was excellent and the efficacy data provide a first indication
+        of the levels of cellular immunogenicity that will be required for preventing infection,”
+        he says.
+        Hill and his co-workers used a heterologous prime–boost vaccination technique. They gave
+        the volunteers two vaccines—a DNA priming vaccine followed by a modified vaccinia virus
+        Ankara (MVA) that acted as a booster. The DNA and MVA vaccines both had the same insert
+        coding for thrombospondin-related adhesion protein (TRAP; a pre-erythrocytic antigen) and a
+        string of T cell epitopes (called ME for “multiple epitopes”).
+        Hill's team had previously shown that ME-TRAP vaccines given in prime–boost sequence
+        could induce large T cell responses in healthy volunteers from the UK and could delay
+        parasitemia in a sporozoite challenge test (Nat Med 9: 729–735). The next step was to do a
+        randomized controlled trial in Gambia to determine whether this vaccination strategy could
+        provide protection against natural 
+        Plasmodium falciparum infection.
+        The researchers recruited volunteers from 13 Gambian villages that were close to the
+        alluvial flood plain and so were at high risk of developing malaria. They randomly assigned
+        the 372 volunteers to receive either two doses of the DNA ME-TRAP vaccine followed by a
+        single dose of MVA ME-TRAP, or three doses of rabies vaccine. This three-dose schedule is
+plos/pmed.0010047.txt lines 1-29/54 52%
 ```
 
-In this situation, I want to quickly scan through the file for specific information, having fewer empty lines can speed up the process by reducing the amount of scrolling required to navigate through the file.
+The percentage of the file is showing to me, which helps me to track the content of the file.
 
 
 Example2:
