@@ -22,7 +22,7 @@ import org.junit.*;
 
 
 * input that doesn't induce a failure
- ```java
+```java
 @Test
   public void testReversed1() {
     int[] input1 = { };
@@ -38,6 +38,7 @@ import org.junit.*;
 
   
 * Before
+
 ```java
 
 static int[] reversed(int[] arr) {
