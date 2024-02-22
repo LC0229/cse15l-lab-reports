@@ -730,6 +730,8 @@ We can see the total pages of the file, the range of lines and percentage we vie
 
 Keep the content of the file on the terminal, instead of quitting it by the end.
 
+(https://phoenixnap.com/kb/less-command-in-linux)
+
 Example1:
 
 ```
