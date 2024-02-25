@@ -10,7 +10,8 @@
 I typed `ssh shc067@ieng6.ucsd.edu` for logging in to my account and press `<Enter>`
 
 ## Step2: Clone your fork of the repository from my  Github account
-![Screenshot 2024-02-24 at 10 39 55 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/566eaada-c77f-4dd9-bec9-b7c9849bedb1)
+
+
 
 I typed `git clone  https://github.com/LC0229/lab7-for-lab-report4.git` for forking the repository and press `<Enter>`
 
