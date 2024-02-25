@@ -27,9 +27,10 @@ I typed `bash test.sh` for doing the test and press `<Enter>`
 
 I typed `vim ListExamples.java` for getting into file 
 
-Keys pressed: Type `/index1`, `<enter`for searcching. Then press `*` `*` `*` `*` `*` `*` `*` `*` `*` `*`, since the index1 we want to find is at the 10th of searched words. Then press `l` `l` `l` `l` `l`, since 1 is at the 5th index of the word index1. Press `x` to delete the 1, and press `i` and `2` for inserting the 2 for fixing the bug.
+Keys pressed: Type `/index1`, `<enter`for searcching. Then press `*` `*` `*` `*` `*` `*` `*` `*` `*` `*`, since the index1 we want to find is at the 10th of searched words. Then press `l` `l` `l` `l` `l`, since 1 is at the 5th index of the word index1. Press `x` to delete the 1, and press `i` and `2` for inserting the 2 for fixing the bug. Type `:wq!` for exiting the file and save changes made.
 
 ## Step5: Run the tests, demonstrating that they now succeed
+
 
 
 
