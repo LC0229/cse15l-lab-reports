@@ -30,6 +30,12 @@ I typed `vim ListExamples.java` for getting into file
 Keys pressed: Type `/index1`, `<enter`for searcching. Then press `*` `*` `*` `*` `*` `*` `*` `*` `*` `*`, since the index1 we want to find is at the 10th of searched words. Then press `l` `l` `l` `l` `l`, since 1 is at the 5th index of the word index1. Press `x` to delete the 1, and press `i` and `2` for inserting the 2 for fixing the bug. Type `:wq!` for exiting the file and save changes made.
 
 ## Step5: Run the tests, demonstrating that they now succeed
+![Screenshot 2024-02-24 at 11 14 53 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/0c98fc4e-8d20-4304-8557-7b3df356de93)
+
+Keys pressed: `<up><up><enter>`, the `bash test.sh` command is was 2 up in the search history, then it gives us the passed result.
+
+
+
 
 
 
