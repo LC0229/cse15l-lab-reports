@@ -35,9 +35,11 @@ Keys pressed: Type `/index1`, `<enter`for searcching. Then press `*` `*` `*` `*`
 Keys pressed: `<up><up><enter>`, type the `bash test.sh` command is was 2 up in the search history, then it gives us the passed result.
 
 ## Step6: Commit and push the resulting change to my Github account
-![Screenshot 2024-02-24 at 11 18 54 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/0839bf9d-029f-4e47-9e52-92002bdbc396)
 
-Keys pressed: Type `git commit -m "OK"` for commit and push, press `<enter>`, the changes has been committed.
+
+Keys pressed: 
+Type `git add ListExamples.java`, press `<enter>`
+Type `git commit -m "Editing ListExamples.java"` for commit and push, press `<enter>`, the changes has been committed.
 
 
 
