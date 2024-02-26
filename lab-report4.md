@@ -46,7 +46,7 @@ Type `git commit -m "Editing ListExamples.java"` for commit with message.
 
 ![Screenshot 2024-02-25 at 4 08 05 PM](https://github.com/LC0229/cse15l-lab-reports/assets/156004283/17f7e29d-0e9e-4be1-96eb-fd7809ba4c45)
 
-Keys pressed: git <space> push <space> origin <space> main
+Keys pressed: `git <space> push <space> origin <space> main`
 Git push command take commit and save the changes made. main is the branch that saved.
 
 
